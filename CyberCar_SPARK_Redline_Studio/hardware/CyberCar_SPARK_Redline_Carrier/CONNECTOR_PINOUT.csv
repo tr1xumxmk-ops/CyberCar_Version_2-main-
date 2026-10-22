@@ -1,0 +1,33 @@
+Connector,Pin,Net / Signal,Function / note
+J2,1,GND,Ground reference
+J2,2,+5V,5V from buck; feeds ESP32 5V pin
+J2,3,+3V3,3.3V output from ESP32 regulator; expansion only
+J2,4,GPIO7_IN1,L298N IN1
+J2,5,GPIO6_IN2,L298N IN2
+J2,6,GPIO4_IN3,L298N IN3
+J2,7,GPIO5_IN4,L298N IN4
+J2,8,GPIO11_ENA,L298N ENA
+J2,9,GPIO12_ENB,L298N ENB
+J2,10,GPIO13_SERVO,Servo signal
+J2,11,GPIO8_LED_RED,Red indicator LED
+J2,12,GPIO9_LED_GREEN,Green indicator LED
+J2,13,GPIO3_LED_BLUE,Blue indicator LED
+J2,14,GPIO18_BUZZER,NPN buzzer driver base via R1
+J2,15,GPIO1_AUX,Future low-current GPIO
+J2,16,GPIO2_AUX,Future low-current GPIO
+J3,1,GND,Logic ground; must common with L298N power ground
+J3,2,GPIO7_IN1,Connect to L298N IN1
+J3,3,GPIO6_IN2,Connect to L298N IN2
+J3,4,GPIO4_IN3,Connect to L298N IN3
+J3,5,GPIO5_IN4,Connect to L298N IN4
+J3,6,GPIO11_ENA,Connect to L298N ENA; remove module jumper
+J3,7,GPIO12_ENB,Connect to L298N ENB; remove module jumper
+J4,1,GND,Servo ground
+J4,2,+5V,Regulated +5V servo rail
+J4,3,GPIO13_SERVO,Servo PWM signal from GPIO13 (firmware dependent)
+J5,1,+3V3,3.3V logic supply
+J5,2,GND,Ground
+J5,3,GPIO1_AUX,Aux signal 1
+J5,4,GPIO2_AUX,Aux signal 2
+J6,1,+5V,Buzzer positive
+J6,2,BUZZER_SWITCH,Transistor-switched low side

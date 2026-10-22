@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "filename": "CyberCar_SPARK_Redline_Carrier.kicad_pro",
+    "version": 1
+  },
+  "board": {
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.25,
+        "silk_line_width": 0.12,
+        "clearance": 0.2
+      }
+    },
+    "3dviewports": [],
+    "viewports": []
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      }
+    ]
+  },
+  "schematic": {},
+  "pcbnew": {},
+  "libraries": {},
+  "cvpcb": {},
+  "erc": {},
+  "text_variables": {}
+}

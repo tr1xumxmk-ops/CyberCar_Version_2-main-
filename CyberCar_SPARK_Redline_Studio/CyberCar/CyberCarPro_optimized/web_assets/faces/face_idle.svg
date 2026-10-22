@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 72" role="img" aria-label="CyberCar robot face: idle">
+  <rect x="5" y="5" width="86" height="62" rx="13" fill="#091326" stroke="#00efff" stroke-width="2"/>
+  <path d="M10 14 H86 M10 58 H86" stroke="#00efff" stroke-opacity=".25"/>
+  <g fill="none" stroke="#00efff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M22 29 Q30 23 38 29 M58 29 Q66 23 74 29"/><path d="M32 49 Q48 57 64 49"/></g>
+</svg>

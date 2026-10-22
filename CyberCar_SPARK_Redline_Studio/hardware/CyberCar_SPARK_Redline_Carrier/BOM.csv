@@ -1,0 +1,17 @@
+Reference,Qty,Suggested component,Purpose,Notes
+J1,1,5.08mm 2-pin screw terminal,Regulated 5V input from buck only,Do not connect raw 2S LiPo to this connector
+J2,1,16-pin 2.54mm header/harness,Off-board LOLIN S2 Mini signals,Do not assume a direct module footprint; map wire-by-wire
+J3,1,7-pin 5.08mm screw terminal,L298N logic inputs and common ground,Motor supply/output current stays on L298N and wires
+J4,1,3-pin 2.54mm header,"Servo: GND, +5V, GPIO13 signal",Confirm servo pin/color order
+J5,1,4-pin 2.54mm header,"Low-current future expansion: 3V3, GND, GPIO1, GPIO2",3.3V logic only; no high-current loads
+J6,1,5.08mm 2-pin screw terminal,Passive piezo buzzer output,+5V and switched low-side output
+Q1,1,"2N2222A NPN transistor, TO-92",Buzzer low-side driver,Verify exact B/C/E lead pinout against purchased part
+R1,1,"1kΩ axial resistor, 1/4W",Q1 base resistor,
+R2,1,"10kΩ axial resistor, 1/4W",Q1 base pull-down,
+R3-R5,3,"220Ω axial resistors, 1/4W",Status LED current limiting,One resistor per LED
+D1,1,"3mm red LED, THT",Red status,"Polarity: anode to resistor, cathode to GND"
+D2,1,"3mm green LED, THT",Green status,"Polarity: anode to resistor, cathode to GND"
+D3,1,"3mm blue LED, THT",Blue status,"Polarity: anode to resistor, cathode to GND"
+C1,1,"470µF electrolytic, >=10V, radial 2.5mm pitch",Servo rail transient buffering,Observe polarity; cap positive pad is pad 1
+C2,1,"100nF ceramic, THT 2.54mm pitch",High-frequency 5V decoupling,
+H1-H4,4,"M3 mounting holes, 3.2mm NPTH",Board mounting,Check screw/washer clearance
