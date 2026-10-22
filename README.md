@@ -89,11 +89,13 @@ The live dashboard uses black surfaces, hazard-yellow highlights, and signal-red
 
 ### Dashboard
 
-![Dashboard screenshot](docs/assets/readme/portal-dashboard.png)
+<img width="1440" height="980" alt="portal-dashboard" src="https://github.com/user-attachments/assets/a543a0ee-623d-403d-a356-bc2c5a341c3b" />
+
 
 ### Manual controls and SPARK Team
 
-![Controls and team screenshot](docs/assets/readme/portal-controls-team.png)
+<img width="1440" height="907" alt="portal-controls-team" src="https://github.com/user-attachments/assets/974154ce-6213-47b1-9a7a-bac9ec1413dc" />
+
 
 ### Run the preview
 
