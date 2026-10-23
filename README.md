@@ -1,7 +1,5 @@
 [SECURE_BACKEND.md](https://github.com/user-attachments/files/33843694/SECURE_BACKEND.md)
-<p align="center">
-  <img width="1440" height="980" alt="portal-dashboard" src="https://github.com/user-attachments/assets/a543a0ee-623d-403d-a356-bc2c5a341c3b" />
-</p>
+
 
 <h1 align="center">CYBERCAR SPARK REDLINE</h1>
 <p align="center">
