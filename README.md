@@ -23,7 +23,7 @@
 CyberCar SPARK REDLINE is a small four-wheel chassis controlled by a LOLIN S2 Mini (ESP32-S2). The ESP32 creates its own Wi-Fi access point and serves a locally hosted browser dashboard. A phone joins the car's network and sends commands directly to the ESP32; no home router, cloud service, or Internet uplink is required for this local-control configuration.
 
 The electrical architecture keeps high motor current away from the carrier PCB: an external L298N module drives the motors, while a separate buck converter makes regulated 5 V for the ESP32/accessories. The carrier is an interconnect and accessory board, not a replacement for the ESP32, L298N module, or buck converter.
-
+## Note The Neon_CyberCar is another version with a few changes that can be easily noticed .
 ### Current implementation vs. planned features
 
 | Capability | Status in this release |
