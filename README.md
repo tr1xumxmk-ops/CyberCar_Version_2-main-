@@ -24,6 +24,7 @@ CyberCar SPARK REDLINE is a small four-wheel chassis controlled by a LOLIN S2 Mi
 
 The electrical architecture keeps high motor current away from the carrier PCB: an external L298N module drives the motors, while a separate buck converter makes regulated 5 V for the ESP32/accessories. The carrier is an interconnect and accessory board, not a replacement for the ESP32, L298N module, or buck converter.
 ## Note The Neon_CyberCar is another version with a few changes that can be easily noticed .
+like the wifi password and the WebPage Theme&UI also the Servo angle movement .
 ### Current implementation vs. planned features
 
 | Capability | Status in this release |
